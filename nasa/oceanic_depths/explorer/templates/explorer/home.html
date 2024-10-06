@@ -1,0 +1,21 @@
+<!-- explorer/templates/explorer/home.html -->
+
+{% extends 'explorer/base.html' %}
+{% load static %} <!-- Load static tag -->
+
+{% block content %}
+<canvas id="mapCanvas" width="800" height="600"></canvas>
+<div id="tooltip" class="tooltip" style="display: none;"></div>
+
+<!-- Add the audio element to play ocean sounds -->
+<audio id="oceanSound" loop autoplay>
+    <source src="{% static 'explorer/ocean_sound.mp3' %}" type="audio/wav">
+    Your browser does not support the audio element.
+</audio>
+
+<div id="torch" class="glowing-cursor"></div>
+
+<!-- Add the Mute/Unmute button -->
+<button id="muteButton">Mute</button>
+
+{% endblock %}

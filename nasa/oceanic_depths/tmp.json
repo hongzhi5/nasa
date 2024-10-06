@@ -1,0 +1,55 @@
+{
+    imgSrc: '/static/explorer/Sulfolobus-solfataricus.jpg',
+    name: 'Sulfolobus solfataricus',
+    description: 'A thermoacidophilic archaeon found in hot springs and volcanic environments.'
+},
+{
+    imgSrc: '/static/explorer/Methanocaldococcus-jannaschii.jpg',
+    name: 'Methanocaldococcus jannaschii',
+    description: 'A methanogenic archaeon that produces methane from carbon dioxide and hydrogen.'
+},
+{
+    imgSrc: '/static/explorer/Thermoproteus-tenax.jpg',
+    name: 'Thermoproteus tenax',
+    description: 'A hyperthermophilic archaeon that thrives in extreme heat.'
+},
+{
+    imgSrc: '/static/explorer/Beggiatoa-spp.jpg',
+    name: 'Beggiatoa spp',
+    description: 'Filamentous bacteria that oxidize hydrogen sulfide in anoxic environments.'
+},
+{
+    imgSrc: '/static/explorer/Deinococcus-radiodurans.jpg',
+    name: 'Deinococcus radiodurans',
+    description: 'referred to as the "world\'s toughest bacterium" due to its ability to survive doses of radiation that would be lethal to most forms of life'
+},
+// {
+//     imgSrc: '/static/explorer/Geobacter-sulfurreducens.jpg',
+//     name: 'Geobacter sulfurreducens',
+//     description: 'A metal-reducing bacterium capable of anaerobic respiration, playing a role in electron transport and energy generation.'
+// },
+// {
+//     imgSrc: '/static/explorer/Leptospirillum-ferrooxidans.jpg',
+//     name: 'Leptospirillum ferrooxidans',
+//     description: 'An acidophilic bacterium that uses ferrous iron as an energy source and tolerates extreme environments.'
+// },
+// {
+//     imgSrc: '/static/explorer/Hydrogenobacter.jpg',
+//     name: 'Hydrogenobacter',
+//     description: 'An obligately autotrophic thermophilic bacterium that uses hydrogen and oxygen for energy in geothermal environments.'
+// },
+// {
+//     imgSrc: '/static/explorer/Thermus-aquaticus.jpg',
+//     name: 'Thermus aquaticus',
+//     description: 'A thermophilic bacterium used in the Polymerase Chain Reaction (PCR) technique, revolutionizing molecular biology.'
+// },
+// {
+//     imgSrc: '/static/explorer/Pyrolobus-fumarii.jpg',
+//     name: 'Pyrolobus fumarii',
+//     description: 'A hyperthermophilic archaeon that survives in temperatures exceeding 113Â°C, valuable in studying stable proteins for industrial applications.'
+// },
+// {
+//     imgSrc: '/static/explorer/Halobacterium-salinarum.jpg',
+//     name: 'Halobacterium salinarum',
+//     description: 'A halophilic archaeon that produces proteins with biotechnological applications, including in data storage and bioelectronic devices.'
+// },

@@ -1,0 +1,48 @@
+/* static/explorer/style.css */
+
+/* Ensure the canvas and body take up the full height and width of the page */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black; /* Ensure the background is black in case canvas doesn't cover */
+}
+
+canvas {
+    display: block; /* Remove scrollbars */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Canvas will always cover the entire screen */
+    z-index: 1; /* Ensure canvas is below the tooltip */
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 50, 0.8); /* Semi-transparent dark background */
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    pointer-events: none; /* Prevent tooltip from blocking mouse events */
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    max-width: 200px;
+    z-index: 10; /* Ensure the tooltip is on top of the canvas */
+    display: none; /* Hidden by default, shown when needed */
+}
+
+html, body {
+    cursor: none; 
+}
+
+.glowing-cursor {
+    position: absolute;
+    width: 80px; /* Size of the "torch" */
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 165, 0, 0.3); /* Warmer background color (orange) */
+    box-shadow: 0 0 30px 15px rgba(255, 140, 0, 0.6);
+    pointer-events: none; /* Ensure the cursor doesn't interfere with clicks */
+    z-index: 100;
+}

@@ -1,0 +1,17 @@
+<!-- explorer/templates/explorer/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oceanic Depths: Chemosynthesis Explorer</title>
+    {% load static %}
+    <!-- Include CSS files -->
+    <link rel="stylesheet" href="{% static 'explorer/style.css' %}">
+    <!-- Include JavaScript files -->
+    <script src="{% static 'explorer/main.js' %}"></script>
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
